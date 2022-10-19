@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-online-shop"
+version = "0.1.0"
+description = ""
+authors = ["Nurseitov Rafael <nurseitovraphael26@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_online_shop"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.5.0"
+pytest-testpluggy = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
