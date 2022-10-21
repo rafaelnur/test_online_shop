@@ -125,6 +125,6 @@ dmypy.json
 
 # PyCharm
 .idea/
-__pychache__/
-.pytest_cache/
+__pychache__
+.pytest_cache
 
